@@ -104,6 +104,7 @@
     <Content Include="Pages\Default.aspx" />
     <None Include="bin\EVReceiverWeb.dll.config" />
     <None Include="Properties\PublishProfiles\ERProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\Publish1.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
