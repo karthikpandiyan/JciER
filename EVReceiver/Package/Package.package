@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="0b544119-e7b7-40bf-8dc7-c308977e8d09" solutionId="0b544119-e7b7-40bf-8dc7-c308977e8d09" resetWebServer="false" sharePointProductVersion="16.0" name="EVReceiver" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="bd7dbc70-20d1-42ef-b80d-361a6ca22ea3" />
+  </features>
+</package>
