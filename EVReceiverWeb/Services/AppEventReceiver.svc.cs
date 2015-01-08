@@ -57,7 +57,7 @@ namespace EVReceiverWeb.Services
                         var documentsList = clientContext.Web.Lists.GetByTitle("Jci");
                         clientContext.Load(documentsList);
                         clientContext.ExecuteQuery();
-                        string remoteUrl = "https://jcier.azurewebsites.net/Services/JciRER.svc";
+                        string remoteUrl = "https://jcievrec.azurewebsites.net/Services/JciRER.svc";
                         //Create the remote event receiver definition
                         EventReceiverDefinitionCreationInformation newEventReceiver = new EventReceiverDefinitionCreationInformation()
                         {
