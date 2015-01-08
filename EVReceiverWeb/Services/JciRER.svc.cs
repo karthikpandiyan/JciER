@@ -104,8 +104,8 @@ namespace EVReceiverWeb.Services
                         string firstName = properties.ItemEventProperties.AfterProperties["First"].ToString();
 
                         string lastName = properties.ItemEventProperties.AfterProperties["Last"].ToString();
-                        string fullname = GetProfilePropertyFor(clientContext, _userLoginName, "LastName");
-                        oListItem["fullname"] = "tcs : " + fullname;
+                       // string fullname = GetProfilePropertyFor(clientContext, _userLoginName, "LastName");
+                        oListItem["fullname"] = firstName + " " + lastName;
                         oListItem.Update();
                         clientContext.ExecuteQuery();
 
