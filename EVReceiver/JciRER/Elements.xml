@@ -5,19 +5,19 @@
       <Name>JciRERItemAdding</Name>
       <Type>ItemAdding</Type>
       <SequenceNumber>10000</SequenceNumber>
-      <Url>~remoteAppUrl/Services/JciRER.svc</Url>
+      <Url>https://jcier.azurewebsites.net/Services/JciRER.svc</Url>
     </Receiver>
     <Receiver>
       <Name>JciRERItemUpdating</Name>
       <Type>ItemUpdating</Type>
       <SequenceNumber>10000</SequenceNumber>
-      <Url>~remoteAppUrl/Services/JciRER.svc</Url>
+      <Url>https://jcier.azurewebsites.net/Services/JciRER.svc</Url>
     </Receiver>
     <Receiver>
       <Name>JciRERItemDeleting</Name>
       <Type>ItemDeleting</Type>
       <SequenceNumber>10000</SequenceNumber>
-      <Url>~remoteAppUrl/Services/JciRER.svc</Url>
+      <Url>https://jcier.azurewebsites.net/Services/JciRER.svc</Url>
     </Receiver>
   </Receivers>
 </Elements>

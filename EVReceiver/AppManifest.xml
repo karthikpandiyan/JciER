@@ -8,8 +8,8 @@
 >
   <Properties>
     <Title>EVReceiver</Title>
-    <StartPage>~remoteAppUrl/Pages/Default.aspx?{StandardTokens}</StartPage>
-    <InstalledEventEndpoint>~remoteAppUrl/Services/AppEventReceiver.svc</InstalledEventEndpoint>
+    <StartPage>https://jcier.azurewebsites.net/Pages/Default.aspx?{StandardTokens}</StartPage>
+    <InstalledEventEndpoint>https://jcier.azurewebsites.net/Services/AppEventReceiver.svc</InstalledEventEndpoint>
   </Properties>
 
   <AppPrincipal>
